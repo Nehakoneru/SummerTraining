@@ -1,0 +1,17 @@
+class KiaCellltos
+{
+    static String brand ="kia";
+    static String model;
+    string regno;
+    kiaCar(String regno)
+    {
+        this.regno=regno;
+    }
+    static void dispBrand()
+    {
+        system.out.println(Brand);
+    }
+    static void dispModel(){
+        
+    }
+}

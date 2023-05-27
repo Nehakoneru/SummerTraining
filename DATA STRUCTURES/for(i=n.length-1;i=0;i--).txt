@@ -1,0 +1,40 @@
+for(i=5;i>=1;i++)
+{
+System.out.println(i);
+}
+    
+void printNum(int n)
+{
+if(n<0)
+return;
+System.out.println(n);
+printNum(n-1);
+}
+
+public static void main()
+{
+Test a=printNum();
+a.printNum(5);
+} 
+
+
+
+
+void insertAt(int pos,int data)
+{
+Node nn==new ode(data)
+if (head==null)
+{
+//no linked list
+return;
+}
+Node temp =head;
+while(pos>1)
+{
+temp=temp.next;
+pos--;
+}
+nn.next=temp.next;
+temp.next==nn;
+}
+

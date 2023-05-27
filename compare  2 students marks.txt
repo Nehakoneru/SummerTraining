@@ -1,0 +1,23 @@
+compare  2 students marks
+class Student
+{
+	int marks;
+	Student(int marks)
+	{
+	  this.marks=marks;
+	}
+}
+class TestMarks
+{
+  public static void main(String args[])
+{
+  Student s1=new Student(60);
+  Student s2=new Student(50);
+  if (s1.marks>s2.marks)
+	System.out.print("s1>s2");
+  else if(s1.marks<s2.marks)
+      System.out.print("s1<s2");
+  else 
+	System.out.print("s1=s2");
+}
+}

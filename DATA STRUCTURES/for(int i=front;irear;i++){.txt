@@ -1,0 +1,56 @@
+for(int i=front;i<rear;i++){
+if (q[i]==search)
+return true;
+return false;
+}
+boolean search(Queue search(Queue q,int front,int rear,int ele)
+{
+if (front>rear&&q[front]!=else))
+return false;
+if (q[front]==ele)
+return true;
+search(q,front+1,rear,ele);
+}
+-------------------------------------------------------------
+Linear search
+for(int i=0;i<arr.length;i++)
+{
+if (arr[i]==search)
+break;
+}
+if(i==arr.length)
+System.out.println(not found)
+----------------------------------------------------------
+prime number
+for (int i=2;i<num/2;i++)
+{
+if(num%i=0)
+break;
+}
+if(i==num/2)
+System.out.println(print number);
+----------------------------------------------------------
+Binary search
+->binary search nly works on sorted array
+->it should be used for arrays with large size.
+10  20  30  40  50  60  70  80  90  100
+0   1   2    3   4   5   6   7   8   9
+sort then first
+searching for 8
+low=0;
+high=size-1;
+mid=(low+high)/2;=4
+
+while(low<high)
+{
+if (num==arr[mid])//66
+break;
+else if(num<arr[mid])
+{
+high=mid-1;
+}
+else
+low=mid+1;
+mid=(low+high)/2
+}
+if(arr[mid-1

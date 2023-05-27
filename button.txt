@@ -1,0 +1,17 @@
+  
+import java.awt.*;
+import java.awt.event.*;
+Class Page1 implement 
+{
+   Frame f=new Frame("Page1");
+   Button b = new Button("Click"); 
+   Page1() 
+   {
+      f.add(b);
+      f.setLayout(new FlowLayout());
+	f.setsize(300,400);
+	b.addActionListener(this);
+   }
+	public void actionPerformed(ActionEvent e)
+{
+	system.out.println("Helloworld"+ i++)
